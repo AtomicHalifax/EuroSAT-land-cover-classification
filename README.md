@@ -2,7 +2,6 @@
 
 A deep learning project that classifies satellite images into **10 land cover categories** using **Transfer Learning** with **ResNet50** and **PyTorch**.
 
----
 
 ## 📖 Project Overview
 
@@ -12,7 +11,14 @@ Instead of training a convolutional neural network from scratch, Transfer Learni
 
 This project was developed in **Google Colab** using **PyTorch** and serves as my first end-to-end computer vision project.
 
----
+## 🔄 Project Workflow
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32d79c49-e752-4b36-be83-e7f99a76bc33" />
+
+# 🖼️ Project Showcase
+## Dataset Sample
+
+ <img width="1203" height="990" alt="Sample Predictions" src="https://github.com/user-attachments/assets/aeef62ea-e63f-45c3-b095-43533a6055e6" />
+
 
 ## 📊 Project Results
 
@@ -52,7 +58,6 @@ After downloading, extract the dataset and update the dataset path in the notebo
 - Confusion Matrix and error analysis
 - Google Colab compatible
 
----
 
 ## 🔄 Project Workflow
 
@@ -80,13 +85,12 @@ After downloading, extract the dataset and update the dataset path in the notebo
 
 <img width="1191" height="985" alt="Misclassified Test Images" src="https://github.com/user-attachments/assets/95b7a8ad-6d92-4c97-b2b1-f1cdd9a87908" />
 
----
 
 ## 🧠 Model Architecture
 
 This project uses **ResNet50**, a pretrained Convolutional Neural Network (CNN), with **Transfer Learning**. The final fully connected layer was modified to classify the **10 land-cover classes** in the EuroSAT RGB dataset.
 
----
+
 ## ⚙️ Installation
 
 Clone the repository:
@@ -106,7 +110,7 @@ pip install -r requirements.txt
 The trained model weights (`eurosat_resnet50.pth`) are not included in this repository due to GitHub file size limitations.
 
 You can reproduce the model by running the notebook from start to finish.
----
+
 
 ## 🚀 How to Run
 
@@ -116,8 +120,6 @@ You can reproduce the model by running the notebook from start to finish.
 4. Update the dataset path if needed.
 5. Run all cells sequentially.
 6. The notebook will train the model, evaluate its performance, and generate visualizations.
-
----
 
 ## 🛠️ Tech Stack
 
@@ -129,7 +131,6 @@ You can reproduce the model by running the notebook from start to finish.
 - Matplotlib
 - Scikit-learn
 
----
 
 ## 🔮 Future Improvements
 
@@ -139,20 +140,16 @@ You can reproduce the model by running the notebook from start to finish.
 - Deploy the model using Streamlit or Gradio
 - Extend the project for satellite-based deforestation detection
 
----
 
 ## 📄 License
 
 This project is licensed under the **MIT License**.
 
----
 
 ## 🙏 Acknowledgements
 
 - EuroSAT RGB Dataset
 - PyTorch & Torchvision
 - Google Colab
-
----
 
 ⭐ If you found this project interesting, feel free to **star the repository**!
