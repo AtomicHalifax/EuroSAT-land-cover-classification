@@ -47,11 +47,7 @@ After downloading, extract the dataset and update the dataset path in the notebo
 - Model evaluation using Accuracy, Precision, Recall and F1-score
 - Confusion Matrix and error analysis
 - Google Colab compatible
-
-
-## 🔄 Project Workflow
-
- <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32d79c49-e752-4b36-be83-e7f99a76bc33" />
+- 
 ## Class Distribution
 
 <img width="859" height="558" alt="EuroSAT Class distribution" src="https://github.com/user-attachments/assets/7f089ecf-fde0-4f05-87b3-365bf5ccb5d6" />
