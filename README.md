@@ -1,16 +1,12 @@
 # 🛰️ EuroSAT Land Cover Classification using ResNet50
-
 A deep learning project that classifies satellite images into **10 land cover categories** using **Transfer Learning** with **ResNet50** and **PyTorch**.
 
-
 ## 📖 Project Overview
-
 This project uses the **EuroSAT RGB** dataset and a pretrained **ResNet50** model to classify satellite images into different land cover classes such as forests, rivers, residential areas, highways, and more.
 
 Instead of training a convolutional neural network from scratch, Transfer Learning is used to leverage features learned from the ImageNet dataset, resulting in faster training and high classification performance.
 
 This project was developed in **Google Colab** using **PyTorch** and serves as my first end-to-end computer vision project.
-
 ## 🔄 Project Workflow
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/32d79c49-e752-4b36-be83-e7f99a76bc33" />
 
@@ -18,7 +14,6 @@ This project was developed in **Google Colab** using **PyTorch** and serves as m
 ## Dataset Sample
 
  <img width="1203" height="990" alt="Sample Predictions" src="https://github.com/user-attachments/assets/aeef62ea-e63f-45c3-b095-43533a6055e6" />
-
 
 ## 📊 Project Results
 
